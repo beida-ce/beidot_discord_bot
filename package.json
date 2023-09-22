@@ -1,0 +1,17 @@
+{
+  "name": "beidot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "node bot.js"
+  },
+  "author": "beidoo",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.12.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  }
+}
