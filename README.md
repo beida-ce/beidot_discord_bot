@@ -23,3 +23,30 @@ It is intended as a **learning project**, not a production bot.
 ```bash
 git clone https://github.com/username/beidot.git
 cd beidot
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Create a .env file and add your bot token (optional, for testing):
+```bash
+DISCORD_TOKEN=your_bot_token
+CLIENT_ID=your_bot_client_id
+GUILD_ID=your_guild_id
+```
+4. Start the bot (if you want to test it locally):
+```bash
+node index.js
+```
+3. Create a .env file and add your bot token (optional, for testing):
+```bash
+DISCORD_TOKEN=your_bot_token
+CLIENT_ID=your_bot_client_id
+GUILD_ID=your_guild_id
+```
+3. Create a .env file and add your bot token (optional, for testing):
+```bash
+DISCORD_TOKEN=your_bot_token
+CLIENT_ID=your_bot_client_id
+GUILD_ID=your_guild_id
+```
