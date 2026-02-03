@@ -40,5 +40,6 @@ GUILD_ID=your_guild_id
 ```bash
 node bot.js
 ```
+⚡ This project is for learning purposes—feel free to fork it and experiment!
 
 
