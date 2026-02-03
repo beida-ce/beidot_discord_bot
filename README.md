@@ -11,13 +11,11 @@ It is intended as a **learning project**, not a production bot.
 
 ## Features (Implemented)
 
-### 🛠 Moderation Commands
-- `/kick @user` – Kicks a user from the server.
-- `/prune <number>` – Deletes a specified number of messages.
+## Features (Implemented)
 
-### 🎉 Fun & User Commands
-- `/ping` – Checks the bot’s online status and latency.
-- `/avatar [@user]` – Displays your or the mentioned user’s avatar.
+- **Fun:** ping  
+- **Moderation:** kick, prune  
+- **Utility:** server, user, avatar
 
 > Note: All commands are **slash commands** (`/command`).
 
