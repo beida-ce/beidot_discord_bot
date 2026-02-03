@@ -1,9 +1,13 @@
 > A Discord bot created for learning purposes. Currently, it is **not actively running**.
 
 ## Purpose
-
 Beidot was developed to practice Discord.js, slash commands, and modular bot architecture.  
 It is intended as a **learning project**, not a production bot.
+
+## Learning Goals
+- Understand slash commands in Discord.js.
+- Practice modular command structure.
+- Learn how to handle users and server interactions programmatically.
 
 ## Features (Implemented)
 
@@ -36,17 +40,7 @@ GUILD_ID=your_guild_id
 ```
 4. Start the bot (if you want to test it locally):
 ```bash
-node index.js
+node bot.js
 ```
-3. Create a .env file and add your bot token (optional, for testing):
-```bash
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_bot_client_id
-GUILD_ID=your_guild_id
-```
-3. Create a .env file and add your bot token (optional, for testing):
-```bash
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_bot_client_id
-GUILD_ID=your_guild_id
-```
+
+
