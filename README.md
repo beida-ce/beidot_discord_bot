@@ -1,45 +1,67 @@
-> A Discord bot created for learning purposes. Currently, it is **not actively running**.
+# 🤖 Beidot
 
-## Purpose
-Beidot was developed to practice Discord.js, slash commands, and modular bot architecture.  
-It is intended as a **learning project**, not a production bot.
+Lightweight Discord bot for educational purposes, built with **Discord.js**. 
+> **Note:** This is a prototype for learning purposes and is intended to be tested locally, not for production.
 
-## Learning Goals
-- Understand slash commands in Discord.js.
-- Practice modular command structure.
-- Learn how to handle users and server interactions programmatically.
+## 📝 Overview
+A prototype project designed to master Discord.js, focusing on:
+* **Slash Commands** implementation.
+* **Modular Design** pattern for scalability.
+* **Event & API Handling** between Discord and the bot.
 
-## Features (Implemented)
+## 🎯 Objectives
+* Implement modern slash command interactions.
+* Build a modular architecture (separate command/event handlers).
+* Manage user/server events and integrate with Discord APIs.
 
-## Features (Implemented)
+---
 
-- **Fun:** ping  
-- **Moderation:** kick, prune  
-- **Utility:** server, user, avatar
+## ✨ Key Features
 
-> Note: All commands are **slash commands** (`/command`).
+### 🛠 Slash Commands (`/command`)
 
-## Project Setup
+| Category | Command | Description |
+| :--- | :--- | :--- |
+| **Entertainment** | `/ping` | Check bot latency. |
+| **Moderation** | `/kick` | Remove a user from the server. |
+| **Moderation** | `/prune` | Delete a specific amount of messages. |
+| **Utility** | `/server` | Display server information. |
+| **Utility** | `/user` | Display user details. |
+| **Utility** | `/avatar` | Show a user's profile image. |
 
-1. Clone the repository:
-```bash
-git clone https://github.com/username/beidot.git
-cd beidot
-```
-2. Install dependencies:
-```bash
-npm install
-```
-3. Create a .env file and add your bot token (optional, for testing):
-```bash
-DISCORD_TOKEN=your_bot_token
-CLIENT_ID=your_bot_client_id
-GUILD_ID=your_guild_id
-```
-4. Start the bot (if you want to test it locally):
-```bash
-node bot.js
-```
-⚡ This project is for learning purposes—feel free to fork it and experiment!
+---
 
+## 🚀 Installation
 
+Follow these steps to set up the bot locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/username/beidot.git](https://github.com/username/beidot.git)
+   cd beidot
+   ```
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+3. **Configure Environment: Create a .env file in the root directory and add your credentials:**
+   ```bash
+   DISCORD_TOKEN=your_token_here
+   CLIENT_ID=your_client_id_here
+   GUILD_ID=your_guild_id_here
+   ```
+3. **Configure Environment: Create a .env file in the root directory and add your credentials:**
+   ```bash
+   DISCORD_TOKEN=your_token_here
+   CLIENT_ID=your_client_id_here
+   GUILD_ID=your_guild_id_here
+   ```
+3. **Run the bot:**
+   ```bash
+    node bot.js
+   ```
+
+---
+
+## 🤝 Contributing
+Feel free to fork the project, enhance the code, and submit a PR. Please ensure you update the documentation for any new features added.
