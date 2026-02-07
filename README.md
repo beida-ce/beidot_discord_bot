@@ -1,6 +1,6 @@
 # 🤖 Beidot
 
-Lightweight Discord bot for educational purposes, built with **Discord.js**. 
+Lightweight Discord bot built with **Discord.js**. 
 > **Note:** This is a prototype for learning purposes and is intended to be tested locally, not for production.
 
 ## 📝 Overview
